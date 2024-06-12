@@ -1,0 +1,16 @@
+body{
+background-color: orange;
+color: brown;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: coral;
+}
+.flex-container > div {
+    background-color:lightblue;
+    font-size: 4em;
+    margin: 20px;
+    padding: 10px
+}
